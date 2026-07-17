@@ -1,0 +1,25 @@
+.about-photo-box{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:40px 0;
+}
+
+.about-photo{
+    width:220px;
+    height:220px;
+    border-radius:50%;
+    object-fit:cover;
+    border:5px solid #00e5ff;
+    box-shadow:
+        0 0 15px #00e5ff,
+        0 0 35px rgba(0,229,255,.6);
+    transition:0.4s ease;
+}
+
+.about-photo:hover{
+    transform:scale(1.08);
+    box-shadow:
+        0 0 25px #00e5ff,
+        0 0 60px rgba(0,229,255,.8);
+}
